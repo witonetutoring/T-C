@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อตกลงและเงื่อนไข | WIT ONE Tutoring</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #fbfaf6; /* ครีมอ่อน */
+            --primary-color: #142a46; /* น้ำเงินกรมท่า */
+            --accent-gold: #ab9575; /* ทอง/เบจ */
+            --accent-green: #508b2b; /* เขียว */
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 20px 40px 20px;
+        }
+
+        /* Header Section (เหมือนหน้าคอร์สและ FAQ) */
+        .header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 5px solid var(--accent-gold);
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .header p {
+            margin: 10px 0 0;
+            font-size: 14px;
+            font-weight: 300;
+            color: #d1d5db;
+        }
+
+        /* Term Cards */
+        .term-card {
+            background-color: var(--white);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(20, 42, 70, 0.05);
+            border-top: 4px solid var(--accent-gold);
+        }
+
+        .term-card.primary-border { border-top-color: var(--primary-color); }
+        .term-card.green-border { border-top-color: var(--accent-green); }
+
+        .term-card h3 {
+            margin: 0 0 15px 0;
+            font-size: 16px;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-bottom: 1px dashed #eaeaea;
+            padding-bottom: 10px;
+        }
+
+        .term-card p, .term-card li {
+            font-size: 13.5px;
+            color: #444;
+            margin-bottom: 8px;
+        }
+
+        .term-card ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        .term-card li {
+            margin-bottom: 8px;
+        }
+
+        /* Sub-points styling */
+        .sub-point {
+            margin-bottom: 12px;
+        }
+        
+        .sub-point b {
+            color: var(--primary-color);
+        }
+
+        .nested-list {
+            margin-top: 5px;
+            background: #f9f9f9;
+            padding: 10px 10px 10px 25px;
+            border-radius: 6px;
+            border-left: 3px solid var(--accent-gold);
+        }
+
+        .nested-list li {
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        .highlight-box {
+            background-color: #eef8f2;
+            padding: 12px 15px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: var(--accent-green);
+            margin-top: 15px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        /* CTA Button */
+        .cta-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 16px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            margin-top: 35px;
+            box-shadow: 0 4px 10px rgba(20, 42, 70, 0.2);
+            box-sizing: border-box;
+            transition: transform 0.2s;
+        }
+        
+        .cta-btn:active { transform: scale(0.98); }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>📝 ข้อตกลงและเงื่อนไขการเรียน</h1>
+        <p>WIT ONE Tutoring | Terms & Conditions</p>
+    </div>
+
+    <div class="container">
+        
+        <!-- หมวดที่ 1 -->
+        <div class="term-card">
+            <h3>💳 1. นโยบายการชำระเงินและการคืนเงิน</h3>
+            <ul>
+                <li>ผู้เรียนต้องชำระค่าเรียนล่วงหน้าเพื่อยืนยันการจองก่อนเริ่มคลาสแรกเสมอ</li>
+                <li>หากชำระเงินและเริ่มเรียนไปแล้ว <b>ทางเราขอสงวนสิทธิ์ไม่คืนเงินทุกกรณี (No Refund)</b></li>
+                <li><b>ข้อยกเว้น:</b> หากปัญหาเกิดจากทางเรา (เช่น ไม่สามารถจัดหาติวเตอร์ที่เหมาะสมได้ภายใน 7 วัน) ทางเรายินดีคืนเงินเต็มจำนวน</li>
+            </ul>
+        </div>
+
+        <!-- หมวดที่ 2 -->
+        <div class="term-card primary-border">
+            <h3>⏰ 2. นโยบายการเลื่อน ยกเลิก และขาดเรียน</h3>
+            <div class="sub-point">
+                <b>2.1</b> ผู้เรียนที่ต้องการเลื่อน/ยกเลิกคลาส ต้องแจ้งแอดมินหรือติวเตอร์โดยตรง <b>ล่วงหน้าอย่างน้อย 6 ชั่วโมง</b>
+            </div>
+            <div class="sub-point">
+                <b>2.2</b> หากแจ้งทันตามกำหนด สามารถเลื่อนได้โดยไม่เสียชั่วโมง แต่ต้องนัดวันเรียนใหม่ภายใน 7 วัน
+            </div>
+            <div class="sub-point">
+                <b>2.3</b> หากแจ้งกะทันหัน (น้อยกว่า 6 ชม.) หรือขาดเรียนโดยไม่แจ้ง ชั่วโมงเรียนจะถูกหักตามปกติ และไม่สามารถขอชดเชยคืนได้
+            </div>
+            <div class="sub-point">
+                <b>2.4 กรณีเรียนกลุ่ม:</b> หากบางคนไม่สะดวก ให้กลุ่มตกลงร่วมกันว่าจะ "เลื่อน" หรือ "เรียนต่อ" โดยยึดมติกลุ่มเป็นตัวชี้ขาด
+                <ul class="nested-list">
+                    <li><b>เรียนต่อ →</b> นับชั่วโมงตามปกติทุกคน ผู้ไม่เข้าเรียนถูกหักชั่วโมงจริง ไม่สามารถขอเลื่อนรายบุคคลตามข้อ 2.2 ได้</li>
+                    <li><b>เลื่อน →</b> ทุกคนอยู่ภายใต้เงื่อนไขข้อ 2.2 ร่วมกัน</li>
+                </ul>
+            </div>
+            <div class="sub-point">
+                <b>2.5</b> หากติวเตอร์เป็นฝ่ายลาหรือติดธุระ ทางเราจะจัดชดเชยเวลาเรียนให้ครบตามจำนวนเสมอ
+            </div>
+        </div>
+
+        <!-- หมวดที่ 3 -->
+        <div class="term-card green-border">
+            <h3>🔄 3. นโยบายการเปลี่ยนติวเตอร์</h3>
+            <ul>
+                <li>หากสไตล์การสอนไม่เข้ากัน แจ้งแอดมินเพื่อขอเปลี่ยนติวเตอร์ได้ <b>ฟรี ไม่มีค่าใช้จ่ายเพิ่ม</b></li>
+                <li>ชั่วโมงที่เหลือในแพ็กเกจนำไปเรียนต่อกับติวเตอร์ท่านใหม่ได้ทันที</li>
+            </ul>
+        </div>
+
+        <!-- หมวดที่ 4 -->
+        <div class="term-card">
+            <h3>📸 4. ทรัพย์สินทางปัญญาและการใช้สื่อเพื่อการตลาด</h3>
+            <div class="sub-point">
+                <b>4.1</b> ข้อความ เครื่องหมายการค้า การออกแบบ เนื้อหาการสอน เอกสารประกอบการเรียน และทรัพย์สินทางปัญญาอื่นใดบนช่องทางของทางเรา เป็นกรรมสิทธิ์ของทางเราแต่เพียงผู้เดียว
+            </div>
+            <div class="sub-point">
+                <b>4.2</b> ผู้เรียนจะไม่ทำซ้ำ บันทึก หรือนำเนื้อหาการสอน/คลิปเรียนไปเผยแพร่หรือใช้เชิงพาณิชย์โดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษร
+            </div>
+            <div class="sub-point">
+                <b>4.3 การใช้ภาพ/คลิปเพื่อการตลาด:</b><br>
+                เนื่องจากเป็นการเรียนออนไลน์ ทางเราอาจมีการเก็บภาพแคปหน้าจอ หรือบันทึกคลิปการเรียนการสอนบางส่วน (เช่น ช่วงบรรยากาศการเรียน ผลงาน หรือฟีดแบคของน้อง) เพื่อนำไปใช้ในการทำการตลาดและโปรโมทผ่านช่องทางต่าง ๆ ของทางเรา เช่น เว็บไซต์ โซเชียลมีเดีย หรือสื่อโฆษณา<br><br>
+                ทางเราจะพิจารณาปกปิดหรือไม่เปิดเผยข้อมูลที่สามารถระบุตัวตนของน้องได้โดยตรง เช่น ชื่อ-นามสกุลเต็ม หรือใบหน้าระยะใกล้ เว้นแต่ได้รับความยินยอมเพิ่มเติมจากผู้ปกครอง/ผู้เรียน<br><br>
+                <i>*หากผู้ปกครองหรือผู้เรียนไม่ประสงค์ให้นำภาพ/คลิปการเรียนไปใช้เพื่อการตลาด สามารถแจ้งแอดมินเพื่อของดใช้สิทธิ์นี้ได้ตลอดเวลา</i>
+            </div>
+        </div>
+
+        <!-- หมวดที่ 5 -->
+        <div class="term-card primary-border">
+            <h3>⚖️ 5. สิทธิของทางเรา</h3>
+            <div class="sub-point">
+                <b>5.1</b> ทางเรามีสิทธิมอบหมาย โอนสิทธิ หรือจัดหาติวเตอร์ทดแทนได้ตามความเหมาะสม โดยจะแจ้งให้ผู้เรียนทราบล่วงหน้า
+            </div>
+            <div class="sub-point">
+                <b>5.2</b> ทางเรามีสิทธิระงับหรือยกเลิกการให้บริการ หากผู้เรียนกระทำผิดข้อตกลงในสาระสำคัญ เช่น ไม่ชำระเงิน หรือประพฤติตนไม่เหมาะสมต่อติวเตอร์ หรือกระทำผิดกฎหมาย โดยหากยังแก้ไขได้ ทางเราอาจระงับบริการชั่วคราวก่อนแทนการยกเลิกทันที
+            </div>
+        </div>
+
+        <!-- หมวดที่ 6 -->
+        <div class="term-card">
+            <h3>📝 6. บทบัญญัติทั่วไป</h3>
+            <div class="sub-point">
+                <b>6.1</b> การที่ทางเราไม่บังคับใช้ข้อตกลงข้อใด ไม่ถือเป็นการสละสิทธิ เว้นแต่แจ้งเป็นลายลักษณ์อักษร
+            </div>
+            <div class="sub-point">
+                <b>6.2</b> ข้อตกลงนี้อยู่ภายใต้กฎหมายไทยและเขตอำนาจศาลไทย
+            </div>
+            <div class="sub-point">
+                <b>6.3</b> ทางเราขอสงวนสิทธิ์แก้ไขปรับปรุงข้อตกลงนี้ได้ตามความเหมาะสม โดยประกาศผ่านช่องทางที่เป็นทางการ และถือว่าผู้เรียนยอมรับข้อกำหนดที่แก้ไขเมื่อประกาศแล้ว
+            </div>
+        </div>
+
+        <!-- หมวดที่ 7 -->
+        <div class="term-card green-border">
+            <h3>🔒 7. นโยบายความเป็นส่วนตัว (Privacy Policy)</h3>
+            <div class="sub-point">
+                <b>7.1 ข้อมูลที่เก็บ:</b> ชื่อ โรงเรียน ระดับชั้น วิชาที่สนใจ เบอร์โทร ไลน์ไอดี และข้อมูลการชำระเงิน
+            </div>
+            <div class="sub-point">
+                <b>7.2 วัตถุประสงค์การใช้ข้อมูล:</b> จัดตารางเรียน จับคู่ติวเตอร์ ติดตามพัฒนาการเรียน ติดต่อสื่อสาร และปรับปรุงคุณภาพบริการ
+            </div>
+            <div class="sub-point">
+                <b>7.3 การบันทึกคลาสเรียนออนไลน์:</b> อาจมีการบันทึกวิดีโอ/เสียงเพื่อคุณภาพการสอนหรือให้ทบทวนย้อนหลัง เก็บเป็นความลับ ไม่เผยแพร่สู่สาธารณะโดยไม่ได้รับอนุญาต (ยกเว้นกรณีใช้เพื่อการตลาดตามข้อ 4.3 ที่ผู้เรียน/ผู้ปกครองไม่ได้ปฏิเสธ)
+            </div>
+            <div class="sub-point">
+                <b>7.4 การเปิดเผยข้อมูลต่อบุคคลที่สาม:</b> ทางเราจะไม่ขาย เช่า หรือเปิดเผยข้อมูลแก่บุคคลภายนอก เว้นแต่ได้รับความยินยอม หรือเป็นไปตามกฎหมาย หรือจำเป็นต่อการจัดการเรียนการสอน
+            </div>
+            <div class="sub-point">
+                <b>7.5 ความปลอดภัยของข้อมูล:</b> จำกัดสิทธิ์การเข้าถึงเฉพาะทีมงานที่เกี่ยวข้อง และมีมาตรการป้องกันตามสมควร
+            </div>
+            <div class="sub-point">
+                <b>7.6 สิทธิของผู้ปกครอง/ผู้เรียน:</b> สามารถขอตรวจสอบ แก้ไข ลบข้อมูล หรือของดใช้สิทธิ์การนำภาพ/คลิปไปทำการตลาดได้ โดยติดต่อแอดมินโดยตรง
+            </div>
+        </div>
+
+        <div class="highlight-box">
+            ✔️ การชำระค่าเรียน ถือเป็นการยอมรับข้อตกลงและเงื่อนไขทั้งหมดข้างต้น
+        </div>
+
+        <!-- ปุ่มกลับหรือติดต่อแอดมิน -->
+        <a href="https://lin.ee/PXN3EWz" class="cta-btn">รับทราบเงื่อนไข / กลับไปหน้าแชท</a>
+
+    </div>
+
+</body>
+</html>
